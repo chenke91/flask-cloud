@@ -3,4 +3,4 @@ ADD /hello-flask /hello-flask
 RUN pip install -r /hello-flask/requirements.txt
 WORKDIR /hello-flask
 CMD ['python', 'app.py']
-EXPORT 80
+EXPOSE 80
